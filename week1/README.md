@@ -86,7 +86,7 @@ in another tern
 
 Big O notation, we are checking that the time is taken to execute the program based on the input
 
-6)How we got O(n),O(1),O(n^2)
+6) How we got O(n),O(1),O(n^2)
 
 - O(1): This notation indicates that the algorithm takes constant time to execute, regardless of the input size. An algorithm that performs a fixed number of operations on the input, such as accessing an element in an array, is an example of an O(1) algorithm.
 
