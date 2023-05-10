@@ -271,7 +271,7 @@ If you need to understand the problem we need to sum steps
 
 linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 
-![Singlelinkedlist.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/181fd880-a0ac-4401-9dea-575214dfef68/Singlelinkedlist.png)
+![Singlelinkedlist.png](https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png)
 
 The main benefit of the linked list is the element can be easily removed and inserted without reallocating or reorganization
 
