@@ -30,7 +30,7 @@ if(this.isEmpty()){
 }
     this.size++
 }
-  // printing the node 
+  // printing the nodes 
   print(){
     if(this.isEmpty()){
       console.log('list is empty')
