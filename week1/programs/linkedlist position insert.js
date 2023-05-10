@@ -5,21 +5,21 @@ class Node {
       this.next = null;
     }
   }
-  
+  // creating Linkedlist
   class LinkedList {
     constructor() {
       this.head = null;
       this.size = 0;
     }
-  
+    // checking list is empty or not
     isEmpty() {
       return this.size === 0;
     }
-  
+    // for get the size of linkedlist
     getSize() {
       return this.size;
     }
-  
+  // insert beginning
     prepend(value) {
       const node = new Node(value);
       if (this.isEmpty()) {
@@ -30,7 +30,7 @@ class Node {
       }
       this.size++;
     }
-  
+    //Insert a new node in a index
     insert(value, index) {
       if (index < 0 || index > this.size) {
         return;
@@ -48,7 +48,7 @@ class Node {
         this.size++;
       }
     }
-  
+    // printing the nodes 
     print() {
       if (this.isEmpty()) {
         console.log('list is empty');
@@ -63,7 +63,7 @@ class Node {
       }
     }
   }
-  
+  //Create an instance of a linked list class
   const list = new LinkedList();
   console.log('list is empty', list.isEmpty());
   console.log('list size', list.getSize());
