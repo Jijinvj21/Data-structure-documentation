@@ -2,7 +2,7 @@
 
 ## week_1
 
-Learn what is Data Structure & Algorithms.
+Learn what is Data Structure & Algorithms.<br/>
 Learn the basics of Memory Allocation and Memory leak.
 Learn the concept of Complexity Analysis.
 NB: The complexity of common operations of all data structures should be covered.
