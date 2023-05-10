@@ -1,26 +1,26 @@
 # Data structure
 
 ## week_1
-
-Learn what is Data Structure & Algorithms.<br/>
-Learn the basics of Memory Allocation and Memory leak.
-Learn the concept of Complexity Analysis.
-NB: The complexity of common operations of all data structures should be covered.
-Learn about Asymptotic analysis (Big-O notation).
-Learn the concepts of Array. Complete at least three sample workouts & do at least 3 problems from any competitive coding websites (Hacker Rank, Code Chef, Leet code, Algo Expert, etc.)
-Learn the concepts of the Linked list. Complete at least three sample workouts
-Construction of Singly linked list & Doubly linked list.
-Convert array to a linked list
-Add a node at the end & beginning
-Delete node with the value specified
-Insert a node after & before a node with x data
-Print all elements by order & reverse by order
-Write a program to remove duplicates in a sorted singly linked list
-Learn the concepts of String. Complete at least three sample workouts.
-Eg: Write a function to replace each alphabet in the given string with another alphabet occurring at the n-th position from each of them.
-Learn about Linear Search & Binary Search. Complete at least 3 sample workouts in each of them
-Learn the concepts of Recursion. Complete at least 3 sample workouts.
-Learn about the applications of all structures you covered this week
+ ### Things to study
+1) Learn what is Data Structure & Algorithms.<br/>
+2) Learn the basics of Memory Allocation and Memory leak.<br/>
+3) Learn the concept of Complexity Analysis.<br/>
+4) NB: The complexity of common operations of all data structures should be covered.<br/>
+5) Learn about Asymptotic analysis (Big-O notation).<br/>
+6) Learn the concepts of Array. Complete at least three sample workouts & do at least 3 problems from any competitive coding websites (Hacker Rank, Code Chef, Leet code, Algo Expert, etc.)<br/>
+7) Learn the concepts of the Linked list. Complete at least three sample workouts<br/>
+8) Construction of Singly linked list & Doubly linked list.<br/>
+9) Convert array to a linked list<br/>
+10) Add a node at the end & beginning<br/>
+11) Delete node with the value specified<br/>
+12) Insert a node after & before a node with x data<br/>
+13) Print all elements by order & reverse by order<br/>
+14) Write a program to remove duplicates in a sorted singly linked list<br/>
+15) Learn the concepts of String. Complete at least three sample workouts.<br/>
+16) Eg: Write a function to replace each alphabet in the given string with another alphabet occurring at the n-th position from each of them.<br/>
+17) Learn about Linear Search & Binary Search. Complete at least 3 sample workouts in each of them<br/>
+18) Learn the concepts of Recursion. Complete at least 3 sample workouts.<br/>
+19) Learn about the applications of all structures you covered this week<br/>
 
 1) What is  data structure 
 
