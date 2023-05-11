@@ -69,9 +69,6 @@ class Node {
   }
   
   const list = new LinkedList();
-  // console.log('list is empty', list.isEmpty());
-  // console.log('list size', list.getSize());
-  
   console.log("list is empty",list.isEmpty())
   console.log('list size', list.getSize())
   list.print()
