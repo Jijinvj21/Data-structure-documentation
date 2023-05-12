@@ -281,4 +281,4 @@ the drawback is random access to elements is not feasible  and accessing element
 
 This is the same as the linked list but in this list the are two pointers previous and next previous will point to the previous node and the next node will point to the next node 
 
-The previous pointer of the first  node will point to the null
+The previous pointer of the first  node will point to the null  
