@@ -277,24 +277,8 @@ The main benefit of the linked list is the element can be easily removed and ins
 
 the drawback is random access to elements is not feasible  and accessing element has linear time complexity
 
-linked list has three main operation 
+### Doubly Linked list
 
-Insertion :-we can add an element in the end of the beginning or the given index in the list
+This is the same as the linked list but in this list the are two pointers previous and next previous will point to the previous node and the next node will point to the next node 
 
-Deletion :-removing of items
-
-Search :-finding of elements
-
-The application of linked list is both stack and queue
-
-- Linked list Prepend
-    
-    C**reate a new node, and put the head in that node in this case we are inserting from the beginning of the list**
-    
-- Linked list Print
-    
-    If you are trying to print a linked list you need to create a new pointer to travel through all nodes in this list so this temp pointer will travel through all node if any null value is found at that time we can identify that the temp pointer reach the last node
-    
-- Linked list Append
-    
-    This method is used to add nodes  in the end of the list
+The previous pointer of the first  node will point to the null
