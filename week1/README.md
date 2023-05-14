@@ -282,3 +282,29 @@ the drawback is random access to elements is not feasible  and accessing element
 This is the same as the linked list but in this list the are two pointers previous and next previous will point to the previous node and the next node will point to the next node 
 
 The previous pointer of the first  node will point to the null  
+
+# Recursion
+
+Recursion is a problem-solving technique where the solution depends on solutions to smaller instances of the same problem
+
+it is a great technique to simplify the solution 
+
+if we break down your problem into smaller versions of the same problem recursion is very useful
+
+few things need in recursion they are 
+
+Every recursive solution needs to have a ‘base case’ - condition to terminate the recursion 
+
+Recursion might simplify solving a problem but it does not always translate to a faster solution a recursive solution may be far worse compared to an iterative solution
+
+## Search algorithms
+
+A search algorithm is the step-by-step procedure used to locate specific data among a collection of data. 
+
+- Linear search
+
+Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection
+
+- Binary Search
+
+Binary Search is a searching algorithm for finding an element's position in a sorted array. In this approach, the element is always searched in the middle of a portion of an array. Binary search can be implemented only on a sorted list of items. If the elements are not sorted already, we need to sort them first.
