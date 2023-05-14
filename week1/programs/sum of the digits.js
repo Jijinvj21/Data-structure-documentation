@@ -2,6 +2,7 @@
 // Calculates the sum of the digits in a positive integer
 let sum = 0
 function digitsSum(n){
+    // console.log("n:",n,"sum:",sum)
   if(n===0){
      return n 
    }
