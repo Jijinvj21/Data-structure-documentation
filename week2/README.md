@@ -148,3 +148,51 @@ Hash tables are typically implemented where constant time lookup and insertion a
 database indexing
 
 caches
+
+# **Stacks**
+
+Stacks are a data structure that store information in the form of a list. They allow only adding and removing elements under a **LIFO pattern (last in, first out)**. In stacks, elements can't be added or removed out of order, they always have to follow the LIFO pattern.
+
+### Application
+
+- JavaScript's call stack.
+- Managing function invocations in various programming languages.
+- The undo/redo functionality many programs offer.
+
+The big O of stack methods is the following:
+
+- Insertion - O(1)
+- Removal - O(1)
+- Searching - O(n)
+- Access - O(n)
+
+# **Queues**
+
+Queues work in a very similar way to stacks, but elements follow a different pattern for add and removal. Queues allow only a **FIFO pattern (first in, first out)**. In queues, elements can't be added or removed out of order, they always have to follow the FIFO pattern.
+
+### Application
+
+- Background tasks.
+- Printing/task processing.
+
+The big O of queue methods is the following:
+
+- Insertion - O(1)
+- Removal - O(1)
+- Searching - O(n)
+- Access - O(n)
+
+**There are three ways of calculating the hash function:**
+
+- **Division method**
+- **Folding method**
+- **Mid square method**
+
+### Collision
+
+When the two different values have the same value, then the problem occurs between the two values, known as a collision. In the above example, the value is stored at index 6. If the key value is 26, then the index would be:
+
+collision techniques:
+
+- Open Hashing: It is also known as closed addressing.
+- Closed Hashing: It is also known as open addressing.
