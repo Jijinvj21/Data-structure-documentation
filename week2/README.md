@@ -195,4 +195,4 @@ When the two different values have the same value, then the problem occurs betwe
 collision techniques:
 
 - Open Hashing: It is also known as closed addressing.
-- Closed Hashing: It is also known as open addressing.
+- Closed Hashing: It is also known as open addressing.   
