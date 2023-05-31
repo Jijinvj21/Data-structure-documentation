@@ -26,4 +26,4 @@ Example:
 
 8) Do at least 3 problems each for every structure from any competitive coding websites
 
-9) Learn about the applications of all structures you covered this week
+9) Learn about the applications of all structures you covered this week  
