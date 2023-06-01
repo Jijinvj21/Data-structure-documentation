@@ -50,7 +50,7 @@ Example:
 ### Tree terminology
 
 - The topmost node in the tree is called the root
-- **Any subnode of a given node is called a child node**
+- Any subnode of a given node is called a child node
 - Root nodes have no parent node
 - Leaf node means they  have no child node
 - Siblings node have the same parent
@@ -74,66 +74,7 @@ Example:
 - The value of each right node must be greater than the parent node
 - Each node has at most two children
 
-![Untitled](## Tree
-
-- A tree is a hierarchical data structure that consists of nodes connected by edges
-- A tree is a non-linear data structure compared to arrays linked lists stacks and queues which are linear data structures
-- ln linear data structures the time required to search is proportional to the size of the data set
-- trees however owing to their nonlinear nature allow quicker and easier access to the data
-- a tree will not obtain any loops or cycles
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d70f961d-e0e6-40f8-bfe2-9a4087ac8ed1/Untitled.png)
-
-### Tree usage
-
-- File systems for directory structure
-- A family tree
-- An organization tree
-- DOM
-- Chatbots
-- Abstract syntax trees
-
-### Tree terminology
-
-- The topmost node in the tree is called the root
-- **Any subnode of a given node is called a child node**
-- Root nodes have no parent node
-- Leaf node means they  have no child node
-- Siblings node have the same parent
-- Ancestor, it means a parent of parent  eg: A is the ancestor of E
-- Path  flow from one node to another
-- Distance means which is the number of nodes in the shortest path to reach a node
-- The degree of a node is the total number of child nodes it has
-- The degree of three is the total number of child nodes it has
-- Dept of the node is the number if the node from the root to that node
-- the height of the node is the number of edges from the deepest leaf of that node height of the tree is 2
-
-### Binary
-
-- A binary tree is a tree data structure  in which each node has at almost two children they are referred to as the left  child and right child
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b645326f-4d6a-4b2a-92fe-eafd97932927/Untitled.png)
-
-### Binary search tree
-
-- The value of  each left node must be smaller than the parent node
-- The value of each right node must be greater than the parent node
-- Each node has at most two children
-
 ![Untitled](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221215114732/bst-21.png)
-
-### Binary search tree operations
-
-- Insertion- to add a node to the tree
-- Search- to find a node given its value
-- DFS & BFS- to visit all nodes in the tree
-- Deletion- to remove a nide given its value
-
-### Binary search tree usage
-
-- Search
-- Sorting
-- To implement abstract data types such as lookup tables and priority queues)
 
 ### Binary search tree operations
 
