@@ -38,9 +38,7 @@ class BinarySearchTree{
             }
         }
     }
-    search(){
-        
-    }
+    
 }
 
 const bst = BinarySearchTree()
