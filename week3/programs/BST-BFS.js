@@ -10,7 +10,6 @@ class BinarySearchTree {
   constructor() {
     this.root = null;
   }
-
   isEmpty() {
     return this.root === null;
   }
@@ -39,9 +38,29 @@ class BinarySearchTree {
       }
     }
   }
+
+  levelOrder() {
+    const queue = [];
+    queue.push(this.root);
+    while (queue.length) {
+      let curr = queue.shift();
+      console.log(curr.value);
+      if (curr.left) {
+        queue.push(curr.left);
+      }
+      if (curr.right) {
+        queue.push(curr.right);
+      }
+    }
+  }
 }
 
 const bst = new BinarySearchTree();
 
 bst.insert(10);
-bst.insert(3);
+bst.insert(23);
+bst.insert(21);
+bst.insert(30);
+bst.insert(20);
+bst.insert(32);
+bst.levelOrder();
