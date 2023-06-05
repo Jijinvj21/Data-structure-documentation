@@ -2,7 +2,7 @@ class Node{
     constructor(value){
       this.value = value
       this.left = null
-      this.righ = null
+      this.right = null
     }
   }
   
@@ -23,7 +23,7 @@ class Node{
         }else if(value < root.value){
           return this.search(root.left , value)
         }else{
-          return this.search(root.righ , value)
+          return this.search(root.right , value)
         }
       }
     }
