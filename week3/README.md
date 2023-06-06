@@ -168,7 +168,6 @@ Tree is a specific type of graph data structure
 - Directed graph
     - A graph in which the edges have a direction
     - Edges ate usually represented by arrows pointing in in the direction the graph can be traversed
-    - 
 
 ![Untitled](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
