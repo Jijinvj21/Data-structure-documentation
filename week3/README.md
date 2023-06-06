@@ -88,48 +88,88 @@ Example:
 - Search
 - Sorting
 - To implement abstract data types such as lookup tables and priority queues
-Tree Traversal
+
+### Tree Traversal
+
 A hierarchical data structure like a tree can be  traversed in different ways
-Depth First Search (DFS)
-Breadth First Search(BFS) 
-Depth First Search (DFS)
+
+- Depth First Search (DFS)
+- Breadth First Search(BFS)
+### Depth First Search (DFS)
+
 The DFS algorithm starts at the root node and explores as far as possible along each branch before backtracking
+
 Visit the root node, visit all the nodes in the left subtree, and visit all nod in the right subtree
+
 Depending on the order in which we do this there can be three types of DFS traversals
-Preorder
-Postorder
-inorder
-Preorder Traversal
-Read the data of the node
-Visit the left subtree
-Visit the right subttree
-Inorder Traversal
-Visit the left subtree
-Read the data of the node
-Visit the right subtree
-postorder  Traversal
-Visit the left subtree
-Visit the right subtree
-Read the data of the node 
-Breadth First Search(BFS) 
+
+- Preorder
+- Postorder
+- inorder
+
+### Preorder Traversal
+
+- Read the data of the node
+- Visit the left subtree
+- Visit the right subttree
+
+### Inorder Traversal
+
+- Visit the left subtree
+- Read the data of the node
+- Visit the right subtree
+
+### postorder  Traversal
+
+- Visit the left subtree
+- Visit the right subtree
+- Read the data of the node
+### Breadth First Search(BFS)
+
 Explore all nides at the present depth prior to moving on to the nodes at the next depth level
-BFS Traversal Approach
-Create a queue
-Enqueue the root node
-As  long as the node exists in the queue
-Dequeue the node from the front
-read the value of the node
-enqueue the node’s left child if it exists
-enqueue the node’s right child if it exists
-Heap
+
+### BFS Traversal Approach
+
+- Create a queue
+- Enqueue the root node
+- As  long as the node exists in the queue
+    - Dequeue the node from the front
+    - read the value of the node
+    - enqueue the node’s left child if it exists
+    - enqueue the node’s right child if it exists
+
+### Heap
+
 A Heap is a special Tree-based data structure in which the tree is a complete binary tree
 
-Operations of Heap Data Structure
-Heapify: a process of creating a heap from an array.
-Insertion: process to insert an element in existing heap time complexity O(log N).
-Deletion: deleting the top element of the heap or the highest priority element, and then organizing the heap and returning the element with time complexity O(log N).
-Types of Heap Data Structure
-Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
-Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree
-Heap Sort
-Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements
+!https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221220165711/MinHeapAndMaxHeap1.png
+
+### Operations of Heap Data Structure
+
+- **Heapify:** a process of creating a heap from an array.
+- **Insertion:** process to insert an element in existing heap time complexity O(log N).
+- **Deletion:** deleting the top element of the heap or the highest priority element, and then organizing the heap and returning the element with time complexity O(log N).
+### Types of Heap Data Structure
+
+- Max**-**Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
+- Min**-**Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree
+### Heap Sort
+
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements
+
+### Graph
+
+A graph is a non-linear data structure that consists of a finite number of vertices (also called nodes) connected by edges
+
+Tree is a specific type of graph data structure
+
+### types of graph
+
+- Directed graph
+    - A graph in which the edges have a direction
+    - Edges ate usually represented by arrows pointing in in the direction the graph can be traversed
+    - 
+
+!https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png
+
+- Undirected graph
