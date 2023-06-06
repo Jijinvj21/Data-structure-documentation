@@ -142,7 +142,7 @@ Explore all nides at the present depth prior to moving on to the nodes at the ne
 
 A Heap is a special Tree-based data structure in which the tree is a complete binary tree
 
-!https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221220165711/MinHeapAndMaxHeap1.png
+!(https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221220165711/MinHeapAndMaxHeap1.png)
 
 ### Operations of Heap Data Structure
 
@@ -170,6 +170,6 @@ Tree is a specific type of graph data structure
     - Edges ate usually represented by arrows pointing in in the direction the graph can be traversed
     - 
 
-!https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png
+!(https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
 - Undirected graph
