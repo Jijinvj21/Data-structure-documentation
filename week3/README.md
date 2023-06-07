@@ -172,3 +172,9 @@ Tree is a specific type of graph data structure
 ![Untitled](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
 - Undirected graph
+
+
+### Graph usage
+
+- Social media recommendation
+- Google map
