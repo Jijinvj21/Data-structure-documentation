@@ -174,7 +174,3 @@ Tree is a specific type of graph data structure
 - Undirected graph
 
 
-### Graph usage
-
-- Social media recommendation
-- Google map
