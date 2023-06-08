@@ -192,15 +192,15 @@ Tree is a specific type of graph data structure
 
 - weighted Graph
 
-![ghj](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/weighted-graph-in-data-structure.png)
+![ghj](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/weighted-graph-in-data-structure.png)
 
 - Complete graph
 
-![ghjk](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/directed-graph-in-data-structure.png)
+![ghjk](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/directed-graph-in-data-structure.png)
 
 - Regular graph
 
-![vgh](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/regular-graph-in-data-structure.png)
+![vgh](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/regular-graph-in-data-structure.png)
 
 ### Graph usage
 
