@@ -157,6 +157,12 @@ A Heap is a special Tree-based data structure in which the tree is a complete bi
 
 Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements
 
+### Trie
+
+A trie (derived from retrieval) is a multiway tree data structure used for storing strings over an alphabet. It is used to store a large amount of strings. The pattern matching can be done efficiently using tries
+
+![vghj](https://media.geeksforgeeks.org/wp-content/uploads/20220828232752/Triedatastructure1.png)
+
 ### Graph
 
 A graph is a non-linear data structure that consists of a finite number of vertices (also called nodes) connected by edges
@@ -172,5 +178,48 @@ Tree is a specific type of graph data structure
 ![Untitled](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
 - Undirected graph
+- A graph in which the edges are bidirectional
+- The graph can be traversed in either direction
+- The absence of an arrow tells us that the graph is  undirected
 
+![gh](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png)
+
+### more graph types
+
+- Null graph
+
+![lkjj](https://static.javatpoint.com/ds/images/types-of-graph-in-data-structure1.png)
+
+- weighted Graph
+
+![ghj](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/weighted-graph-in-data-structure.png)
+
+- Complete graph
+
+![ghjk](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/directed-graph-in-data-structure.png)
+
+- Regular graph
+
+![vgh](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph Data Structure - Soni/regular-graph-in-data-structure.png)
+
+### Graph usage
+
+- Social media recommendation
+- Google map
+
+### Graph representation
+
+- Adjacency matrix
+    - An adjacency matrix is a 2D array of size  V x V where V is the number of vertices in the graph
+    - Each row and column represent a vertex
+    - If any value of any element say matrix[i][j] is 1, represents that there is an edge connection between vertex i and j
+- Adjacency list
+    - Vertices are stored in a map-like data structure and every vertex stores a list of its adjacent vertices
+
+### Adjacency matrix vs Adjacency list
+
+- with an adjacency list, we only need to store the values for the edges that exist
+- with an adjacent matrix, you store values irrespective of whether an edge exists or not storage wise an adjacency list is way more efficient
+- With an adjacency list inserting and finding adjacent nodes is constant time complexity whereas with an adjacency  matrix it is linear time complexity
+- an adjacency list allows you to store additional values with an edge such as the  weight of the edge with an adjacency matrix such information would have to be stored externally
 
