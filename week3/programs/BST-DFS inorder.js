@@ -10,9 +10,6 @@ class Node {
     constructor() {
       this.root = null;
     }
-    isEmpty() {
-      return this.root === null;
-    }
     inOrder(root){
         if(root){
             this.inOrder(root.left)
@@ -21,4 +18,5 @@ class Node {
         }        
     }
   }
-  
+  const bst = new BinarySearchTree();
+bst.inOrder();

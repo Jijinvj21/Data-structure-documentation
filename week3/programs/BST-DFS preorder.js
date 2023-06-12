@@ -10,9 +10,7 @@ class BinarySearchTree {
   constructor() {
     this.root = null;
   }
-  isEmpty() {
-    return this.root === null;
-  }
+  
   preOrder(root){
     if(root){
         console.log(root.value)
@@ -21,3 +19,6 @@ class BinarySearchTree {
     }
   }
 }
+
+const bst = new BinarySearchTree();
+bst.preOrder();

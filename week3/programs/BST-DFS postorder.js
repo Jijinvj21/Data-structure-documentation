@@ -10,9 +10,7 @@ class Node {
     constructor() {
       this.root = null;
     }
-    isEmpty() {
-      return this.root === null;
-    }
+   
     postOrder(root){
         if(root){
             this.postOrder(root.left)
@@ -21,4 +19,5 @@ class Node {
         }        
     }
   }
-  
+  const bst = new BinarySearchTree();
+bst.postOrder();
