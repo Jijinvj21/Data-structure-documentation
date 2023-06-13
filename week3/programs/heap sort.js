@@ -13,7 +13,7 @@ function heapSort(arr) {
     return arr;
   }
   
-  function heapifyDown(arr, index, length) { 
+  function heapifyDown(arr, index, length) {
     let maxIdx = index,
       leftChildIdx = 2 * index + 1,
       rightChildIdx = 2 * index + 2;

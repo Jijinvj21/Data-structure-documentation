@@ -107,23 +107,24 @@ Depending on the order in which we do this there can be three types of DFS trave
 - Postorder
 - inorder
 
-### Preorder Traversal
+### Preorder Traversal (Root, Left, Right)
 
 - Read the data of the node
 - Visit the left subtree
 - Visit the right subttree
 
-### Inorder Traversal
+### Inorder Traversal (Left, Root, Right)
 
 - Visit the left subtree
 - Read the data of the node
 - Visit the right subtree
 
-### postorder  Traversal
+### postorder  Traversal (Left, Right, Root)
 
 - Visit the left subtree
 - Visit the right subtree
 - Read the data of the node
+
 ### Breadth First Search(BFS)
 
 Explore all nides at the present depth prior to moving on to the nodes at the next depth level
@@ -137,6 +138,14 @@ Explore all nides at the present depth prior to moving on to the nodes at the ne
     - read the value of the node
     - enqueue the node’s left child if it exists
     - enqueue the node’s right child if it exists
+
+    ### Complexity
+
+- insertion = O(log n)
+- deletion = O(log n)
+- Traversal = O(n)
+- unbalanced search  = O(n)
+- balanced search  = O(logn)
 
 ### Heap
 
@@ -157,11 +166,22 @@ A Heap is a special Tree-based data structure in which the tree is a complete bi
 
 Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements
 
+### Complexity
+
+- insertion = O(logn)
+- deletion = O(logn)
+- sorting = O(nlogn)
+- Heapify = O(nlogn)
+
 ### Trie
 
 A trie (derived from retrieval) is a multiway tree data structure used for storing strings over an alphabet. It is used to store a large amount of strings. The pattern matching can be done efficiently using tries
 
 ![vghj](https://media.geeksforgeeks.org/wp-content/uploads/20220828232752/Triedatastructure1.png)
+
+### Tree vs Tries
+
+A general-purpose tree can store any data type—numbers, strings, objects, whereas a trie is specifically used for storing sequences, like strings or arrays
 
 ### Graph
 

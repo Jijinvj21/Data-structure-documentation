@@ -24,7 +24,7 @@ class Node {
        function inOrder(node){
           if(!node) return true
           if(!inOrder(node.left)) return false
-          if(prev && node.value<=prev) return false
+          if(prev && prev>node.value) return false
           prev=node.value
           return inOrder(node.right)
        }
