@@ -1,11 +1,11 @@
 function heapSort(arr) {
     const length = arr.length,
-      limit = Math.floor(length / 2 - 1); 
-   
+      limit = Math.floor((length-2)/2); 
+   //converting array to heap
     for (let i = limit; i >= 0; i--) {
       heapifyDown(arr, i, length);
     }
-   
+   //sort
     for (let i = length - 1; i >= 0; i--) {
       [arr[0], arr[i]] = [arr[i], arr[0]];
       heapifyDown(arr, 0, i);

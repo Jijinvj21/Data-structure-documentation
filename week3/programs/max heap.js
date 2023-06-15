@@ -5,16 +5,11 @@ class MaxHeap {
     }
   
     insertion(val) {
-      //inserting the value
       this.values.push(val);
-      // placing the value in the correct spot
       let index = this.values.length - 1,
-        parentIndex = Math.floor((index - 1) / 2);
+        parentIndex = Math.floor((index - 1) / 2)
       while (index > 0 && this.values[index] > this.values[parentIndex]) {
-        [this.values[parentIndex], this.values[index]] = [
-          this.values[index],
-          this.values[parentIndex],
-        ];
+        [this.values[parentIndex], this.values[index]] = [this.values[index],this.values[parentIndex]];
         index = parentIndex;
         parentIndex = Math.floor((index - 1) / 2);
       }

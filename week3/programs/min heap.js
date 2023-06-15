@@ -7,10 +7,7 @@ class MinHeap {
       let index = this.values.length - 1;
       let parent = Math.floor((index - 1) / 2);
       while (index > 0 && this.values[index] < this.values[parent]) {
-        [this.values[index], this.values[parent]] = [
-          this.values[parent],
-          this.values[index],
-        ];
+        [this.values[index], this.values[parent]] = [this.values[parent],this.values[index]];
         index = parent;
         parent = Math.floor((index - 1) / 2);
       }
