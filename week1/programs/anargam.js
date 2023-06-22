@@ -13,6 +13,7 @@ function isAnagram(str1, str2) {
       if (!count[char]) {
         return false;
       }
+      
       count[char]--;
     }
     return true;
